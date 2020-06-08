@@ -1,0 +1,107 @@
+body{
+    background-image: url(../../images/livro.png);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: gray;
+}
+.topo2{
+    background-color:white;
+    width: 100%;
+    height: auto;
+}
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-form-1{
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(211,211,211,0.9);
+}
+.login-form-1 h3{
+    text-align: center;
+    color: #333;
+}
+.login-form-2{
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(211,211,211,0.7);
+}
+.login-form-2 img{
+    margin-left: 170px;  
+}
+.login-form-2 h3{
+    text-align: center; 
+    padding-top: 30px;
+}
+.login-container form{
+    padding: 10%;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.btnSubmit2
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form-1 .btnSubmit{
+    font-weight: 600;
+    color: black;
+    background-color: rgb(223, 193, 43);
+    box-shadow: 5px 5px 5px;
+}
+.login-form-1 .btnSubmit2{
+    font-weight: 600;
+    color: black;
+    background-color: rgb(237, 28, 36);
+    box-shadow: 5px 5px 5px;
+}
+.login-form-2 .btnSubmit{
+    font-weight: 600;
+    color: black;
+    background-color: rgb(223, 193, 43);
+    box-shadow: 5px 5px 5px;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+.login-form-2 .ForgetPwd{
+    color: rgb(223, 193, 43);
+    text-shadow: 0px 1px black;
+    font-weight: 600;
+    text-decoration: none;
+}
+.login-form-1 .ForgetPwd{
+    color: rgb(223, 193, 43);
+    text-shadow: 0px 1px black;
+    font-weight: 600;
+    text-decoration: none;
+}
+.form2{
+    padding-top: 0px;
+    padding: 20px !important;
+    margin-top: 0px;
+}
+.logos{
+    width: 150px;
+    height: 90px;
+}
+.rol{
+    overflow:auto;
+}
+#msg-alert{
+    display: none;
+}
+#filtro{
+    display: none;
+}
